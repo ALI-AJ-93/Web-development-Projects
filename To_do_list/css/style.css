@@ -1,0 +1,29 @@
+#paperList {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background: url(../images/Note_paper.jpg) no-repeat;
+    margin-top: 10px;
+}
+#listItems {
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    border: 1px solid #000;
+}
+#tasks {
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+#check {
+    width: 15px;
+    height: 15px;
+}
+.done {
+    text-decoration: line-through;
+}
